@@ -1,0 +1,80 @@
+:root{
+    /* ----------- Fonte ----------- */
+    --font-site: 'JetBrains Mono', monospace;
+    /* ----------- Cores ----------- */
+    --bg-color:#8E4F2C;
+}
+
+body{
+    margin: 0;
+    font-family: var(--font-site);
+}
+
+/* -------------- INICIO HEADER ----------- */
+header nav ul,li{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header li:hover{
+    transform: translateY(-1px);
+}
+
+header img{
+    margin: 0;
+    height: 80px;
+    padding-left: 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #8E4F2C;
+    font-family: var(--font-site);
+    color: #FFFF;
+    list-style: none;
+}
+
+/* ------------ RESERVA ----------- */
+.FacaReserva{
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgReserva{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.TxtReserva,
+.bnt_Reserva{
+    position: absolute;
+    z-index: 2; 
+}
+
+.TxtReserva{
+    font-size: 50px;
+}
+
+.bnt_Reserva{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    background-color: var(--bg-color);
+    color: #FFFF;
+    border: none;
+    width: 220px;
+    padding: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 200px;
+}
+
+.bnt_Reserva:hover{
+    transform: translateY(-2px);
+}

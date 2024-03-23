@@ -1,0 +1,132 @@
+:root{
+    /* ----------- Fonte ----------- */
+    --font-site: 'JetBrains Mono', monospace;
+    /* ----------- Cores ----------- */
+    --bg-color:#8E4F2C;
+}
+
+body{
+    margin: 0;
+    font-family: var(--font-site);
+}
+
+/* -------------- INICIO HEADER ----------- */
+header nav ul,li{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header li:hover{
+    transform: translateY(-1px);
+}
+
+header img{
+    margin: 0;
+    height: 80px;
+    padding-left: 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #8E4F2C;
+    font-family: var(--font-site);
+    color: #FFFF;
+    list-style: none;
+}
+
+/* -------------- FIM HEADER ----------- */
+
+/* -------------- INICIO MAIN ----------- */
+/* ---- Primeira imagem/reserva ----------- */
+.HomeReserva {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.HomeFotoUm {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.reserva{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    background-color: var(--bg-color);
+    color: #FFFF;
+    border: none;
+    width: 200px;
+    padding:15px;
+    border-radius: 50px;
+    margin-top: 300px;
+    cursor: pointer;
+}
+
+.reserva:hover{
+    transform: translateY(-2px);
+}
+
+.logo,
+.reserva {
+    position: absolute;
+    z-index: 2; 
+}
+
+/* ---- Segunda imagem/cardapio ----------- */
+
+.HomeFoto2{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.HomeCardapio{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: end;
+}
+
+.HomeCardapio .Cardap,.SobreCard,.BotaoCard{
+    position: absolute;
+    z-index: 2;
+}
+
+.Cardap{
+    color: #FFFF;
+    margin-bottom: 200px;
+    margin-right: 430px;
+}
+
+.SobreCard{
+    font-family: var(--font-site);
+    font-size: 18px;
+    margin-right: 280px;
+    color: #FFFF;
+    width: 450px;
+}
+
+.BotaoCard{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    background-color: var(--bg-color);
+    color: #FFFF;
+    border: none;
+    width: 200px;
+    padding:15px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 400px;
+    margin-top: 200px;
+}
+
+.BotaoCard:hover{
+    transform: translateY(-2px);
+}

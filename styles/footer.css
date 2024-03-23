@@ -1,0 +1,83 @@
+/* ----------- REDES SOCIAIS --------- */
+.Informacao{
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.RedeSocial img{
+    height: 55px;
+    border-radius: 50%;
+}
+
+.links_infos{
+    font-size: 20px;
+    display: grid;
+    left: 60px;
+}
+
+.links_infos ul li{
+    color: #808080;
+}
+
+.links_infos ul li:hover{
+    color: #FFFF;
+}
+
+.RedeSocial{
+    text-align: end;
+    font-size: 20px;
+    right: 100px;
+    bottom: 100px;
+}
+
+.RedeSocial img:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.Prato3{
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1; 
+}
+
+.links_infos, 
+.RedeSocial{
+    color: #FFFF;
+    position: absolute;
+    z-index: 2; 
+}
+
+/* ----------- FOOTER --------- */
+
+.Footer{
+    align-items: center;
+    height: 200px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8E4F2C;
+    color: #FFFF;
+}
+
+.RedesFooter ul li,
+.InformaFooter ul li{
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.RedesFooter ul li:hover,
+.InformaFooter ul li:hover{
+    color: black;
+}
+
+.MeioFooter{
+    font-size: 10px;
+    text-align-last: center;
+}
+
+.Logo_footer{
+    width: 150px;
+}

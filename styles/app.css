@@ -1,0 +1,42 @@
+/* ------- APP ----------- */
+.AppDiverse{
+    display: flex;
+    justify-content: space-around;
+    background-color: #8E4F2C;
+    color: #FFFF;
+}
+
+.BaixeImg{
+    align-self: center;
+}
+
+.BaixeAgora{
+    font-size: 35px;
+}
+
+.BaixeImg .GooglePlay,.AppStore{
+    height: 50px;
+}
+
+.BaixeImg img:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.BaixeImg .BaixeAgora,
+.GooglePlay,
+.AppStore{
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+}
+
+.ConhecaApptxt{
+    font-size: 45px;
+    text-align: center;
+}
+
+.BeneficiosApp, p{
+    align-self: center;
+    padding-top: 15px;
+}
