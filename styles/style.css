@@ -23,7 +23,6 @@ header li:hover{
 }
 
 header img{
-    margin: 0;
     height: 80px;
     padding-left: 50px;
 }
@@ -33,14 +32,10 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: #8E4F2C;
-    font-family: var(--font-site);
+    background-color: var(--bg-color);
     color: #FFFF;
     list-style: none;
 }
-
-/* -------------- FIM HEADER ----------- */
-
 /* -------------- INICIO MAIN ----------- */
 /* ---- Primeira imagem/reserva ----------- */
 .HomeReserva {
@@ -106,7 +101,6 @@ header{
 }
 
 .SobreCard{
-    font-family: var(--font-site);
     font-size: 18px;
     margin-right: 280px;
     color: #FFFF;

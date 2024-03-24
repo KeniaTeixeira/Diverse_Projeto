@@ -78,3 +78,54 @@ header{
 .bnt_Reserva:hover{
     transform: translateY(-2px);
 }
+
+/* ---------- Restaurante --------- */
+
+.Rest_perto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+.Encontre_RP{
+    color: #8E4F2C;
+    font-size: 20px;
+}
+.EscolhaInput, p {
+    padding-right: 30px;
+}
+.EscolhaInput{
+    display: flex;
+    font-size: 13px;
+}
+.EscolhaInput input{
+    border-color: #8e4e2c6b;
+    
+}
+.EscolhaInput #inputEstado{
+    margin-right: 30px;
+}
+::placeholder {
+    color: #8e4e2c6b;
+}
+
+/* ---------- mapa ------- */
+
+.MapaRestaurante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #8E4F2C;
+}
+
+.mapa{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    background-color: var(--bg-color);
+    color: #FFFF;
+    width: 100px;
+    border: none;
+    padding:15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
