@@ -1,0 +1,13 @@
+:root{
+    /* ----------- Fonte ----------- */
+    --font-site: 'JetBrains Mono', monospace;
+    /* ----------- Cores ----------- */
+    --bg-color:#8E4F2C;
+}
+
+body{
+    margin: 0;
+    font-family: var(--font-site);
+}
+
+/* ----- Hamburguer ------- */

@@ -1,0 +1,177 @@
+@media screen and (max-width: 860px){
+    .links_infos{
+        font-size: 12px;
+    }
+    .RedeSocial img{
+        height: 30px;
+    }
+    .RedeSocial{
+        font-size: 15px;
+    }
+    .ConhecaApptxt{
+        font-size: 30px;
+    }
+    .maozinha{
+        height: 250px;
+    }
+    .BaixeAgora{
+        font-size: 20px;
+    }
+    .BaixeImg .GooglePlay,.AppStore{
+        height: 30px;
+    }
+    .BeneficiosApp, p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .logo{
+        height: 300px;
+    }
+
+    .reserva{
+        font-size: 13px;
+        width: 150px;
+        padding:2px;
+        margin-top: 200px;
+        height: 30px;
+    }
+
+    .SobreCard{
+        font-size: 15px;
+        margin-right: 200px;
+        color: #FFFF;
+        width: 450px;
+    }
+    .RedeSocial{
+        font-size: 20px;
+        right: 50px;
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .SobreCard{
+        font-size: 13px;
+        margin-right: 200px;
+        width: 350px;
+    }
+    .BotaoCard{
+        font-size: 12px;
+        width: 150px;
+    }
+    .Cardap{
+        font-size: 25px;
+    }
+    .RedeSocial{
+        font-size: 20px;
+        right: 50px;
+        bottom: 30px;
+    }
+    .MeioFooter p{
+        font-size: 8px;
+    }
+    .links_infos{
+        font-size: 10px;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .SobreCard{
+        font-size: 12px;
+        margin-right: 150px;
+    }
+    .BotaoCard{
+        font-size: 10px;
+        width: 130px;
+        margin-right: 350px;
+    }
+    .Cardap{
+        font-size: 20px;
+        margin-bottom: 120px;
+        margin-right: 400px;
+    }
+    .BaixeAgora{
+        font-size: 15px;
+    }
+    .ConhecaApptxt{
+        font-size: 20px;
+    }
+    .BeneficiosApp, p{
+        font-size: 10px;
+    }
+    .maozinha{
+        height: 200px;
+    }
+
+    .MeioFooter p{
+        font-size: 5px;
+    }
+    .Logo_footer{
+        width: 100px;
+    }
+
+    .RedesFooter ul li,
+    .InformaFooter ul li{
+    font-size: 12px;
+    }
+
+    .RedeSocial{
+        font-size: 20px;
+        right: 50px;
+        bottom: 30px;
+    }
+    .links_infos{
+        font-size: 10px;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .ctt{
+        display: none;
+    }
+    .logo{
+        height: 200px;
+    }
+    .reserva{
+        font-size: 10px;
+        width: 130px;
+        margin-top: 150px;
+    }
+
+    .SobreCard{
+        font-size: 10px;
+        margin-right: 120px;
+    }
+    .BotaoCard{
+        font-size: 10px;
+        width: 110px;
+    }
+    .Cardap{
+        font-size: 15px;
+        margin-bottom: 80px;
+    }
+    .links_infos{
+        font-size: 10px;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .SobreCard{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .BotaoCard{
+        font-size: 10px;
+        margin-right: 230px;
+        margin-top: 150px;
+    }
+    .Cardap{
+        font-size: 12px;
+        margin-right: 300px;
+    }
+}

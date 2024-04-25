@@ -1,0 +1,102 @@
+:root{
+    /* ----------- Fonte ----------- */
+    --font-site: 'JetBrains Mono', monospace;
+    /* ----------- Cores ----------- */
+    --bg-color:#8E4F2C;
+}
+
+body{
+    margin: 0;
+    font-family: var(--font-site);
+}
+
+/* ------------ RESERVA ----------- */
+.FacaReserva{
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgReserva{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.TxtReserva,
+.bnt_Reserva{
+    position: absolute;
+    z-index: 2; 
+}
+
+.TxtReserva{
+    font-size: 50px;
+}
+
+.bnt_Reserva{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    background-color: var(--bg-color);
+    color: #FFFF;
+    border: none;
+    width: 220px;
+    padding: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 200px;
+}
+
+.bnt_Reserva:hover{
+    transform: translateY(-2px);
+}
+
+/* ---------- Restaurante --------- */
+
+.Rest_perto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+.Encontre_RP{
+    color: #8E4F2C;
+    font-size: 20px;
+}
+.EscolhaInput, p {
+    padding-right: 30px;
+}
+.EscolhaInput{
+    display: flex;
+    font-size: 10px;
+}
+.EscolhaInput input{
+    border-color: #8e4e2c6b;
+    
+}
+.EscolhaInput #inputEstado{
+    margin-right: 30px;
+}
+::placeholder {
+    color: #8e4e2c6b;
+}
+
+/* ---------- mapa ------- */
+
+.MapaRestaurante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #8E4F2C;
+}
+
+.mapa{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    background-color: var(--bg-color);
+    color: #FFFF;
+    width: 100px;
+    border: none;
+    padding:15px;
+    border-radius: 50px;
+    cursor: pointer;
+}

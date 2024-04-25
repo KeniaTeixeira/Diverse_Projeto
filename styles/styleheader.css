@@ -1,0 +1,39 @@
+:root{
+    /* ----------- Fonte ----------- */
+    --font-site: 'JetBrains Mono', monospace;
+    /* ----------- Cores ----------- */
+    --bg-color:#8E4F2C;
+}
+body{
+    margin: 0;
+    font-family: var(--font-site);
+}
+/* -------------- INICIO HEADER ----------- */
+header nav ul,
+a,
+li{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFFF;
+}
+
+header li:hover{
+    transform: translateY(-1px);
+}
+
+header img{
+    height: 80px;
+    padding-left: 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--bg-color);
+    list-style: none;
+}
